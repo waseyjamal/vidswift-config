@@ -1,0 +1,39 @@
+{
+  "app": {
+    "min_version": 1,
+    "force_update": false,
+    "update_url": "http://130.210.38.134/vidswift.apk",
+    "maintenance_mode": false,
+    "maintenance_message": "",
+    "announcement_show": false,
+    "announcement_message": "",
+    "announcement_type": "info"
+  },
+  "engines": {
+    "engine1_enabled": true,
+    "engine2_enabled": false,
+    "engine3_enabled": true,
+    "engine4_enabled": true,
+    "priority_order": [1, 3, 4],
+    "engine3_client": "TV",
+    "timeout_seconds": 15
+  },
+  "ytdlp": {
+    "version": "2026.08.19",
+    "update_url": "",
+    "force_update": false
+  },
+  "qualities": {
+    "q360_enabled": true,
+    "q480_enabled": true,
+    "q720_enabled": true,
+    "q1080_enabled": true,
+    "default_quality": "720"
+  },
+  "features": {
+    "download_enabled": true,
+    "history_enabled": true,
+    "queue_enabled": false,
+    "max_concurrent_downloads": 1
+  }
+}
