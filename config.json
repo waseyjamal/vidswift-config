@@ -12,7 +12,7 @@
   "engines": {
     "engine1_enabled": true,
     "engine2_enabled": false,
-    "engine3_enabled": true,
+    "engine3_enabled": false,
     "engine4_enabled": true,
     "priority_order": [1, 3, 4],
     "engine3_client": "TV",
