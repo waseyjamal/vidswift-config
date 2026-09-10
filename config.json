@@ -14,9 +14,14 @@
     "engine2_enabled": false,
     "engine3_enabled": true,
     "engine4_enabled": true,
-    "priority_order": [1, 3, 4],
+    "priority_order": [
+      1,
+      3,
+      4
+    ],
     "engine3_client": "TV",
-    "timeout_seconds": 15
+    "connect_timeout_seconds": 30,
+    "receive_timeout_seconds": 90
   },
   "ytdlp": {
     "version": "2026.08.19",
